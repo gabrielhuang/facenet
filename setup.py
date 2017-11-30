@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 install_requires = [
-    'tensorflow==1.2',
+    'tensorflow>=1.4',
     'scipy',
     'scikit-learn',
     'opencv-python',
