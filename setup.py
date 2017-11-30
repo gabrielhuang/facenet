@@ -19,5 +19,10 @@ setup(
     license='MIT',
     long_description=open('README.md').read(),
     install_requires=install_requires,
-    package_dir = {'facenet': 'src'}
+    package_dir = {'': 'src'} 
 )
+
+# See below for issue with setuptools for package_dir
+# it will break on "editable" install
+#
+# https://github.com/pypa/pip/issues/126
