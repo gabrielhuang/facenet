@@ -15,7 +15,7 @@ install_requires = [
 setup(
     name='Facenet',
     version='0.1',
-    packages=['facenet',],
+    packages=find_packages('src'),
     license='MIT',
     long_description=open('README.md').read(),
     install_requires=install_requires,
